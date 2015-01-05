@@ -61,13 +61,13 @@
             <plugin>
                 <groupId>com.github.github</groupId>
                 <artifactId>site-maven-plugin</artifactId>
-                <version>0.9</version>
+                <version>0.10</version>
                 <configuration>
-                      <!-- git commit message -->
+                    <!-- git commit message -->
                     <message>Maven artifacts for ${project.version}</message>
                     <!-- disable webpage processing -->
                     <noJekyll>true</noJekyll>
-                     <!-- matches distribution management repository url above -->
+                    <!-- matches distribution management repository url above -->
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
                     <!-- remote branch name -->
                     <branch>refs/heads/mvn-repo</branch>
@@ -76,13 +76,13 @@
                     </includes>
                     <!-- don't delete old artifacts -->
                     <merge>true</merge>                                        
-                        <!-- github repo name -->
+                    <!-- github repo name -->
                     <repositoryName>xmlbeans-infrastructure</repositoryName>  
-                        <!-- github username  -->
+                    <!-- github username  -->
                     <repositoryOwner>huangdy</repositoryOwner>
                 </configuration>
                 <executions>
-              <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
+                <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
                     <execution>
                         <goals>
                             <goal>site</goal>
