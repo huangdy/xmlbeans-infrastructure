@@ -3,15 +3,12 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <!-- 
     <parent>
         <groupId>com.leidos.xchangecore.core</groupId>
         <artifactId>infrastructure</artifactId>
         <version>1.0.0</version>
     </parent>
-     -->
 
-    <groupId>com.leidos.xchangecore.core.infrastructure</groupId>
     <artifactId>xmlbeans-infrastructure</artifactId>
     <version>1.2.1</version>
     <packaging>jar</packaging>
